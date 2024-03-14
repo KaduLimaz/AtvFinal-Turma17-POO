@@ -15,5 +15,8 @@
     "@types/node": "^20.11.27",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "randomuuid": "^1.0.1"
   }
 }

@@ -1,13 +1,12 @@
-export class User {
-    constructor(
-        private id: string,
-        public name: string,
-        private username: string,
-        private email: string,
-        private password: string
-    ){}
+import { randomUUID } from "crypto";
+import {userName} from "../database/userNameDb"
 
-    senteTweet(){}
+export class User {
+    private static users: User[] = [];
+    constructor(){
+}
+
+    sendTweet(){}
     follow(){}
     showFeed(){}
     showTweets(){}
